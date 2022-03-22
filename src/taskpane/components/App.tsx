@@ -20,7 +20,7 @@ const click = async () => {
 
       await context.sync();
       console.log(`The range address was ${range.address}.`);
-    });
+    });   
   } catch (error) {
     console.error(error);
   }
