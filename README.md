@@ -1,2 +1,0 @@
-# Boost
-Excel Plug-in
