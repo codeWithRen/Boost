@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import Query from "./Query";
 /* global console, Excel, require  */
 
+<<<<<<< HEAD
 const click = async () => {
   try {
     await Excel.run(async (context) => {
@@ -25,6 +26,8 @@ const click = async () => {
   }
 };
 
+=======
+>>>>>>> b76d46a67a21d962744836be6f49973a7e47648f
 export default () => {
   const [page, setPage] = useState(<Query />);
 
