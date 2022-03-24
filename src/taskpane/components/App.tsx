@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import NavBar from "./NavBar";
 import Query from "./Query";
-/* global console, Excel, require  */
 
 <<<<<<< HEAD
 const click = async () => {
@@ -33,8 +32,8 @@ export default () => {
 
   return (
     <div>
-      <NavBar setPage={setPage}/>
+      <NavBar setPage={setPage} />
       {page}
     </div>
-  )
-}
+  );
+};
