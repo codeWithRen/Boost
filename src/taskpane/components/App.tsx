@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import Query from "./Query";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const click = async () => {
   try {
     await Excel.run(async (context) => {
@@ -28,6 +29,11 @@ const click = async () => {
 =======
 >>>>>>> b76d46a67a21d962744836be6f49973a7e47648f
 export default () => {
+=======
+/* global JSX */
+
+export default (): JSX.Element => {
+>>>>>>> a8f2b55d841fdbf60a8ca9542cec7353a1245346
   const [page, setPage] = useState(<Query />);
 
   return (
